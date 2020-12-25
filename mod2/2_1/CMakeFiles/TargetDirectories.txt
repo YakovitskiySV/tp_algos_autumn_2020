@@ -1,0 +1,3 @@
+/home/yakovitskiy/dev/Park/tp_algos_autumn_2020/mod2/2_1/CMakeFiles/rebuild_cache.dir
+/home/yakovitskiy/dev/Park/tp_algos_autumn_2020/mod2/2_1/CMakeFiles/edit_cache.dir
+/home/yakovitskiy/dev/Park/tp_algos_autumn_2020/mod2/2_1/CMakeFiles/2_1.out.dir

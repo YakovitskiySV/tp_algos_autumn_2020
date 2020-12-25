@@ -1,0 +1,21 @@
+template <class T, class Comporator>
+void BinTree<T, Comporator>::DFS(void visit(T)) {
+    Node* node = root;
+    std::stack<Node*> rights;
+    while (!rights.empty() || node != nullptr) {
+        if (node->right != nullptr) {
+            rights.push(node->right);
+        }
+        if (node->left == nullptr) {
+            visit(node->key);
+            bool xxx = rights.empty();
+            if (!rights.empty()) {
+                node = rights.top();
+                visit(node->parent->key);
+                rights.pop();
+            }
+        } else {
+            node = node->left;
+        }
+    }
+}

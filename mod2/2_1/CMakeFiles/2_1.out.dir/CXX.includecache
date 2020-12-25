@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yakovitskiy/dev/Park/tp_algos_autumn_2020/mod2/2_1/main.cpp
+iostream
+-
+cassert
+-
+vector
+-
+stack
+-
+
